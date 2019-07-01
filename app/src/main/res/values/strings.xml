@@ -1,6 +1,19 @@
 <resources>
-    <string name="app_name">ServiceCreators</string>
+    <string name="app_name">Service Provider</string>
+    <string name="spinner_title">Select Category</string>
+    <string-array name="service_category_array">
+
+        <item>Doctor</item>
+        <item>Garage</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Tutors</item>
+
+    </string-array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enquiry">Enquiries</string>
+    <string name="profilediplay">Profile </string>
+
 </resources>

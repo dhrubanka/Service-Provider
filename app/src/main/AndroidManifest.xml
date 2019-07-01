@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="info.bankaspace.servicecreators">
+    package="com.bankaspace.serviceproviderbeta">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launcher2_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LoginActivity">
@@ -18,8 +19,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Register" />
+        <activity
+            android:name=".ProfileComplete"
+            android:label="Compelete Your Profile" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="PRofileACD" />
+        <activity
+            android:name=".TabActivity"
+            android:label="Service Provider" />
+        <activity android:name=".DetailMessage"></activity>
     </application>
 
 </manifest>
